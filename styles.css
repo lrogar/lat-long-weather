@@ -1,0 +1,24 @@
+#map-canvas, #forecast, #weather {
+    margin-top: 15px;
+}
+
+#map-canvas {
+    height: 390px;
+    width: 450px;
+}
+
+#weather {
+    
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+    border: solid 2px darkblue;
+    border-radius: 5px;
+    
+    background-color: lightblue;
+}
+
+img {
+    height: 35%;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Consuming Web Services</title>
+
+        <!-- weather: 3a346b7db2caeda8d482f9d443913824, google: AIzaSyAUg5MX-8U_DGibB2KnluUM7SUyUl_IaRY-->
+
+        <script type="text/javascript"
+        src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript"
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUg5MX-8U_DGibB2KnluUM7SUyUl_IaRY"></script>
+        <script type="text/javascript" src="app.js"></script>
+        <link rel="stylesheet"
+              href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="form">
+            Latitude/longitude:
+            <input type="text" name="lat" id="lat" value="43.944847" />
+            <input type="text" name="lon" id="lon" value="-78.891703" />
+            <button id="goButton">Go</button>
+            <div id="error"></div>
+        </div>
+        <div class="container-fluid">
+            <div id="map-canvas" class="col-sm-6"></div>
+            <div id="weather" class="col-sm-4 col-sm-offset-1"></div>
+            <div id="forecast" class="col-sm-11"></div>
+        </div>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </body>
+</html>
